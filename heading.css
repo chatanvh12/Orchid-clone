@@ -1,0 +1,213 @@
+body{
+  background:#ffffff;
+}
+.section,
+.yved {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+#header {
+  margin: 0%;
+  padding-top: 20px;
+  
+}
+#header h1 {
+  font-size: 2rem;
+}
+#header h5 {
+  margin-top: 25px;
+}
+#name i {
+  color: #e74c3c;
+}
+
+#name h1,
+#name h5 {
+  text-align: center;
+  flex: 0;
+}
+#name h1 a {
+  color: #e74c3c;
+  text-decoration: none;
+}
+#name h1 a:hover {
+  color: #f1c40f;
+}
+#name h5 a {
+  color: black;
+  text-decoration: none;
+}
+#name h5 a:hover {
+  color: green;
+}
+#menu {
+  background: #e74c3c;
+}
+#menu > ul {
+  background: #e74c3c;
+}
+#menu ul {
+  list-style: none;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+#menu ul a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  display: block;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 32px;
+  padding: 0 15px;
+  display: block;
+}
+#menu ul li {
+  float: left;
+  position: relative;
+  margin: 0;
+  padding: 0%;
+}
+#menu ul li a:hover {
+  background: #c0392b;
+}
+#menu ul ul {
+  position: absolute;
+  background: rgb(223, 154, 127);
+  top: 100%;
+  left: 0;
+  display: none;
+}
+#menu ul ul li {
+  float: none;
+  width: 320px;
+}
+#menu ul ul ul {
+  top: 0px;
+  left: 100%;
+  border: 2px solid red;
+}
+#menu ul li:hover > ul {
+  display: block;
+}
+#menu ul li ul li a:hover {
+  border-left: 5px solid #2980b9;
+  background: #c39c62;
+  color: rgb(75, 58, 58);
+}
+#slider {
+  height: 600px;
+}
+#welcome {
+  text-align: center;
+}
+#welcome img {
+  width: 100%;
+  border: 2px solid black;
+  padding: 6px;
+}
+#welcome p {
+  margin-top: 20px;
+  text-align: justify;
+}
+.notice {
+  margin: 0;
+  padding: 0;
+  border-bottom: 4px solid rgb(0, 195, 255);
+}
+.notice {
+  margin: 10px 0;
+}
+.notice a {
+  text-decoration: none;
+}
+#yvedio iframe {
+  width: 100%;
+  height: 100%;
+}
+#sider_notice {
+  margin-top: 23px;
+}
+#sider_notice img {
+  width: 100%;
+}
+.interspace {
+  margin-bottom: 100px;
+}
+#departmentint h5 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+#departmentint img {
+  border: 5px solid black;
+}
+#departmentint,
+.section-head {
+  text-align: center;
+}
+#Alumni-Speaks {
+  color: #fff;
+  background: url(./images/background2.jpg) no-repeat 0 0;
+  background-size: cover;
+  padding: 50px 0;
+  position: relative;
+}
+#Alumni-Speaks:before {
+  background: rgb(52, 73, 94, 0.7);
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.alumni_speaks {
+  margin-bottom: 0;
+}
+.alumni_speaks,
+.alumni_speaks img {
+  text-align: center;
+  border-radius: 50%;
+}
+
+.footersider {
+  margin: 0;
+  padding: 0%;
+  background: #34495e;
+  color: #fff;
+}
+.footersider a {
+  text-decoration: none;
+  color: #fff;
+}
+.footersider .link {
+  margin: 8px 0;
+
+}
+#h6{
+  text-align: center;
+}
+.footersider h6{
+  color: #fff;
+  font-size: 25px;
+  
+}
+#footer {
+  background: #2c3e50;
+  color: #fff;
+  padding: 10px 0;
+}
+#social-icons {
+  list-style: none;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+#social-icons li {
+  display: inline-block;
+  padding-left: 5px;
+}
+#social-icons li a {
+  color: #fff;
+  font-size: 20px;
+}
